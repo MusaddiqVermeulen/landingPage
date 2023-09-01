@@ -1,0 +1,242 @@
+/* header sections code */
+.upper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: #1F2937;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.main {
+    justify-content: flex-start;
+    color:#F9FAF8;
+    font-size: 24px;
+    font-style: extra-bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+a {
+    color:lightgrey;
+}
+
+
+
+/* awesome website sections code */
+.change {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #1F2937;
+    padding-bottom: 100px;
+}
+
+.par {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #1F2937;
+    padding-left: 100px;
+
+}
+
+.title {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.subtext {
+    color:lightgrey;
+    font-size: 20px;
+    font-style: normal;
+    padding-bottom: 5px;
+}
+
+.link {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #3882F6; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 5px;
+    font-weight:600;
+}
+
+
+/*image placeholder section for the awesome website section*/
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #1F2937;
+    padding-right: 100px;
+}
+
+
+.image {
+    display: inline-block;
+    background-color: #d3d3d3;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/*random information section*/
+
+.upper.middle {
+    display: flex;
+    flex-direction:column;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.wording {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.words {
+    color:#1F2937;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.buttoneer {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: inline-block;;
+    border:3px solid #3882F6;
+    padding: 60px;
+    background-color: white; /* Blue background color */
+    border-radius: 5px;
+}
+
+.btext {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font: 15px;
+}
+
+
+/* Quote section */
+
+.quote.block{
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote>.quote {
+    font-size: 36px;
+    font-family: light italic;
+}
+
+.quote>.author {
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: flex-end;
+
+}
+
+/* call to action section */
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    
+}
+
+.bottomin {
+    display: flex;
+    flex-direction: row;
+    background: #3882F6;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.bottimlink {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #1F2937;
+}
+
+.call.title {
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottomlink>.info {
+    color: white;
+    font-size: 18px;
+    background-color: #3882F6;
+}
+
+.sign.up {
+    display: inline-block;
+    padding: 7px;
+    background-color: #3882F6; /* Blue background color */
+    color: #fff; /* White text color */
+    border: 3px solid white;
+    border-radius: 5px;
+    font-weight:600;
+    margin-left: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
